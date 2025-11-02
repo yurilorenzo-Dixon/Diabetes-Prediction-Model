@@ -170,7 +170,7 @@ pred_df = pd.DataFrame({
 })
 pred_df.to_csv('test_predictions.csv', index=False)
 
-print("\n🎉 All artifacts saved:")
+print("\n All artifacts saved:")
 print(" - pima_model_final.h5")
 print(" - best_model.h5")
 print(" - confusion_matrix.png")
@@ -178,3 +178,4 @@ print(" - roc_curve.png")
 print(" - history_loss.png")
 print(" - history_acc.png")
 print(" - test_predictions.csv\n")
+
